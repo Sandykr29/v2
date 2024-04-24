@@ -1,34 +1,4 @@
-// // triangle...
-
-// function TriangleWtihOne(n){
-//     for(let i=0;i<n;i++){
-//       let str = "";
-//       for(let j=0;j<n-i;j++){
-//         str += " ";
-//       }
-//       for(let k=0;k<=i;k++){
-//         str += "1 ";
-//       }
-//       console.log(str);
-//     }
-//   }
-  
-//   console.log(TriangleWtihOne(10))
-
-// // left triangle
-
-// function LeftTriangleWithOne(n){
-//     for(let i=1; i<=n; i++){
-//       let str = "";
-//       for(let j=1; j<=i; j++){
-//         str += "1";
-//       }
-//       console.log(str);
-//     }
-//   }
-//   console.log(LeftTriangleWithOne(5));
-
-//   // Square
+// //eg:1 Square
 
 // function Squre(n){
 //     for(let i=0;i<n;i++){
@@ -41,7 +11,7 @@
 //   }
 //   console.log(Squre(10));
   
-// //   Hollow Squre
+// //   Hollow squre
 //   function Squre(n, m) {
 //     for (let i = 0; i < n; i++) {
 //       let str = "";
@@ -55,3 +25,41 @@
 //   }
 //   console.log(Squre(15, 15));
   
+
+// //eg:2 Left Triangle
+
+
+// function LeftTriangle(n){
+//     let str = ""
+//     for(let i=1;i<=n;i++){
+//       for(let k=1;k<=i;k++){
+//         str += "A";
+//       }
+//       if(i%2){
+        
+//       console.log(str);
+//       }
+//       str = "";
+//     }
+//   }
+  
+//   console.log(LeftTriangle(5));
+  
+
+
+// // Eg:3
+
+// function TriangleWithOne(n){
+//     for(let i=0;i<n;i++){
+//       let str = "";
+//       for(let j=0;j<n-i;j++){
+//         str += " ";
+//       }
+//       for(let k=0;k<=i;k++){
+//         str += "8 ";
+//       }
+//       console.log(str);
+//     }
+//   }
+  
+//   console.log(TriangleWithOne(10))
